@@ -87,10 +87,10 @@ const isPasswordVisible = ref(false);
       </VCardItem>
 
       <VCardText class="pt-2">
-        <h5 class="text-h5 font-weight-semibold mb-1">
+        <h5 hidden class="text-h5 font-weight-semibold mb-1">
           Welcome to Swastik Dental Clinic! 👋🏻
         </h5>
-        <p class="mb-0">Explore our dental services and maintain a healthy smile.</p>
+        <p hidden class="mb-0">Explore our dental services and maintain a healthy smile.</p>
       </VCardText>
 
       <VCardText>

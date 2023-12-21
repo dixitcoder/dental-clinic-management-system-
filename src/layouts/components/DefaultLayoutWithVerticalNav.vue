@@ -71,13 +71,15 @@ const upgradeBanner = computed(() => {
           to: '/dashboard',
         }"
       />
+   
       <VerticalNavLink
-        :item="{
-          title: 'Account Settings',
-          icon: 'mdi-account-cog-outline',
-          to: '/account-settings',
-        }"
-      />
+  class="vertical-nav-link"
+  :item="{
+    title: 'Patient Records',
+    icon: 'mdi-table',
+    to: '/typography', // Updated route
+  }"
+/>
 
       <!-- 👉 Pages -->
       <VerticalNavSectionTitle
@@ -117,15 +119,14 @@ const upgradeBanner = computed(() => {
     to: '/patient-registration',
   }"
 />
-
 <VerticalNavLink
-  class="vertical-nav-link"
-  :item="{
-    title: 'Patient Records',
-    icon: 'mdi-table',
-    to: '/typography', // Updated route
-  }"
+:item="{
+  title: 'Account Settings',
+  icon: 'mdi-account-cog-outline',
+  to: '/account-settings',
+}"
 />
+
 
 
     </template>
