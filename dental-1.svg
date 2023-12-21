@@ -1,0 +1,18 @@
+  <svg
+      v-on:mouseover="handleMouseOver"
+      v-on:mouseout="handleMouseOut"
+      clip-rule="evenodd"
+      fill-rule="evenodd"
+      height="10pc"
+      image-rendering="optimizeQuality"
+      shape-rendering="geometricPrecision"
+      text-rendering="geometricPrecision"
+      viewBox="-2.61040575 4.20119867 8.95140575 4.57680184"
+      width="816"
+      xmlns="http://www.w3.org/2000/svg"
+      class="slow-icon"
+    >
+      <!-- Your SVG paths -->
+      <path d="..." fill="#1c2f5d" />
+      <path d="..." fill="#5daad7" />
+    </svg>

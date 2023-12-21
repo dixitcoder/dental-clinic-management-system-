@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": "auth != null", // Allow read access to authenticated users
+    ".write": "auth != null", // Allow write access to authenticated users,
+    
+    // Define rules for paths with numeric keys
+    "your_database_name_here": {
+      "$numeric_key": {
+        ".validate": "newData.isNumber()", // Validate that the key is a number
+        ".read": "auth != null", // Allow read access to authenticated users
+        ".write": "auth != null", // Allow write access to authenticated users
+      }
+    }
+  }
+}
